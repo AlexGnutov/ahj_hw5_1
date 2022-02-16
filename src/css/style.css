@@ -1,0 +1,154 @@
+.container {
+  width: 600px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+/**/
+.pop-button {
+  position: relative;
+  min-width: 200px;
+  min-height: 50px;
+  margin-bottom: 50px;
+  display: block;
+  color: white;
+  font-size: large;
+  background-color: red;
+}
+
+/* Popover styles */
+.pop-common {
+  user-select: none;
+  color: black;
+  font-size: small;
+  z-index: 5;
+  text-align: left;
+  width: 100%;
+  background-color: white;
+  max-width: 250px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  position: absolute;
+}
+.pop-container-top {
+  margin-bottom: 10px;
+  bottom: 100%;
+  left: 0%;
+}
+.pop-container-bottom {
+  margin-top: 10px;
+  top: 100%;
+  left: 0%
+}
+.pop-container-left {
+  margin-right: 10px;
+  right: 100%;
+  top: 0%;
+}
+.pop-container-right {
+  margin-left: 10px;
+  left: 100%;
+  top: 0%;
+}
+/* Inner elements */
+.pop-preheader {
+  margin-bottom: -4px;
+  height: 9px;
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+.pop-header {
+  background-color: lightgrey;
+  padding: 0px 10px 5px;
+  font-size: large;
+}
+/* Small black rectangle styles */
+.pop-black-box-top,
+.pop-black-box-bottom,
+.pop-black-box-left {
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  left: -3px;
+  top: -10px;
+  background-color: black;
+}
+.pop-black-box-right {
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -3px;
+  top: -10px;
+  background-color: black;
+}
+
+.pop-text {
+  position: relative;
+  background-color: white;
+  padding: 5px 10px 0px;
+}
+.pop-footer {
+  margin-top: -4px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+
+/* Arrow styles*/
+.pop-arrow-right {
+  position: absolute;
+  z-index: 3;
+  width: 10px;
+  height: 10px;
+  left: -6px;
+  bottom: 70%;
+  transform: rotate(45deg);
+  border-bottom: 1px solid darkgray;
+  border-left: 1px solid darkgray;
+  background-color: lightgrey;
+}
+.pop-arrow-left {
+  position: absolute;
+  z-index: 3;
+  width: 10px;
+  height: 10px;
+  left: calc(100% - 5px);
+  bottom: 70%;
+  transform: rotate(45deg);
+  border-top: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  background-color: lightgray;
+}
+.pop-arrow-top {
+  position: absolute;
+  z-index: 3;
+  width: 10px;
+  height: 10px;
+  left: calc(50% - 5px);
+  bottom: -6px;
+  transform: rotate(45deg);
+  border-bottom: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  background-color: white;
+}
+.pop-arrow-bottom {
+  position: absolute;
+  z-index: 3;
+  width: 10px;
+  height: 10px;
+  left: 25%;
+  top: -6px;
+  transform: rotate(45deg);
+  border-top: 1px solid darkgray;
+  border-left: 1px solid darkgray;
+  background-color: lightgrey;
+}
+
+/* Common */
+.hidden {
+  display: none;
+}
