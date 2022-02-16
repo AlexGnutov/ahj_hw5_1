@@ -1,5 +1,4 @@
-import Popover from "./popover/popover";
-import PopButton from "./pop-button/pop-button";
+import PopButton from './pop-button/pop-button';
 
 window.onload = () => {
   const container = document.getElementById('container');

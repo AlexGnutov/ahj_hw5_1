@@ -1,7 +1,5 @@
 import { create } from '../utils/utils';
 
-
-
 export default class Popover {
   constructor(header, text, position) {
     this.container = create('div', `pop-container-${position}`);

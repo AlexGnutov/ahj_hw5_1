@@ -20,7 +20,7 @@ export default class PopButton {
     this.popopover.html().classList.add('hidden');
   }
 
-  clickHandler(e) {
+  clickHandler() {
     this.popopover.html().classList.toggle('hidden');
   }
 }
